@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact US</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/contactform_jq.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+		<script src="js/contactform_jq.js"></script>
+	</head>
+	<body>
+		<div id="pagewrapper">
+			<header>
+				<nav id="commonlinks">
+					<ul  >
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Accessibility</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>
+				</nav>	
+				<h1>Zedland Health Authority</h1>
+				<nav id="primarynav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Live well</a></li>
+						<li><a href="#">Care and support</a></li>
+						<li><a href="#">Health news</a></li>
+						<li><a href="#">Find GP</a></li>
+					</ul>
+				</nav>
+			</header>
+			<nav id="breadcrumbs">
+				<p>
+					<a href="#">Home</a>
+					→
+					<a href="#">Diabetes Risk Assessment Tool</a>
+					→
+					<span>Contact Us</span>
+				</p>	
+			</nav>
+			<main>
+				<div id="content">
+					<form method="post" action="http://titan.dcs.bbk.ac.uk/~ubseaxt/process.php" id="zhaform">
+						<fieldset id="dform">
+							<legend>ZHA Contact Form.</legend>
+							<div class="control">
+								<label for="fname">First Name: </label>
+								<input type="text" name="firstname" id="fname"/>
+							</div>
+							<div class="control">
+								<label for="lname">Last Name: </label>
+								<input type="text" name="lastname" id="lname"/>
+							</div>
+							<div class="control">
+								<label for="title">Title:</label>
+								<select name="yourtitle" id="title">
+									<option value="">Please select your title</option>
+									<option value="Mr" >Mr</option>
+									<option value="Ms">Ms</option>
+									<option value="Mrs">Mrs</option>
+									<option value="Miss">Miss</option>
+									<option value="Master">Master</option>
+								</select>
+							</div>
+							<div class="control">
+								<label for="hnumber">Health Authority Number: </label>
+								<input type="text" name="healthnumber" id="hnumber"/>
+							</div>
+							<div class="control">
+								<label for="mail">Email: </label>
+								<input type="text" name="email" id="mail"/>
+							</div>
+							<div class="control">
+								<label for="telenumber">Telephone Number: </label>
+								<input type="text" name="phonenumber" id="telenumber"/>
+							</div>
+							<input type="submit" name="submitForm" id="send"/>
+						</fieldset>
+					</form>
+				</div>
+			</main>
+			<footer>
+				<ul>
+					<li><a href="#">Site Policies</a></li>
+					<li><a href="#">About ZHA</a></li>
+					<li><a href="#">Other ZHA sites</a></li>
+				</ul>
+			</footer>
+		</div>	
+	</body>
+</html>

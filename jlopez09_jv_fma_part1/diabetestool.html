@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Zedland Health Authority</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/diabetestool.css"/>
+		<script src="js/diabetestool.js"></script>
+	</head>
+	<body>
+		<div id="pagewrapper">
+			<header>
+				<nav id="commonlinks">
+					<ul  >
+						<li><a href="contactform.html">Contact Us</a></li>
+						<li><a href="#">Accessibility</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>
+				</nav>	
+				<h1>Zedland Health Authority</h1>
+				<nav id="primarynav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Live well</a></li>
+						<li><a href="#">Care and support</a></li>
+						<li><a href="#">Health news</a></li>
+						<li><a href="#">Find GP</a></li>
+					</ul>
+				</nav>
+			</header>
+			<nav id="breadcrumbs">
+				<p>
+					<a href="#">Home</a>
+					→
+					<a href="#">Live well</a>
+					→
+					<span>Diabetes Risk Assessment Tool</span>
+				</p>	
+			</nav>
+			<main>
+				<section id="content">
+					<h2>ZHA Diabetes Risk Assessment Tool</h2>
+					<form method="post" action="#" id="dform">
+						<fieldset>
+							<div class="controlgroup">
+								<h3>How old are you?</h3>
+								<label for="old1">1-25</label>
+								<input type="radio" name="Age" value="0" id="old1" checked="checked"/>
+								<label for="old2">26-40</label>
+								<input type="radio" name="Age" value="5" id="old2"/>
+								<label for="old3">41-60</label>	
+								<input type="radio" name="Age" value="8" id="old3"/>
+								<label for="old4">60+</label>	
+								<input type="radio" name="Age" value="10" id="old4"/>
+										
+							</div>
+							<div class="controlgroup">	
+								<h3>What is your BMI?</h3>
+								<label for="bmi1">0-25</label>
+								<input type="radio" name="BMI" value="0" id="bmi1" checked="checked"/>
+								<label for="bmi2">26-30</label>
+								<input type="radio" name="BMI" value="0" id="bmi2"/>
+								<label for="bmi3">31-35</label>	
+								<input type="radio" name="BMI" value="9" id="bmi3"/>
+								<label for="bmi4">35+</label>	
+								<input type="radio" name="BMI" value="10" id="bmi4"/>
+							</div>
+							<div class="controlgroup">	
+								<h3>Does anybody in your family have diabetes?</h3>
+								<label for="family1">No</label>
+								<input type="radio" name="Family" value="0" id="family1" checked="checked"/>
+								<label for="family2">Grandparent</label>	
+								<input type="radio" name="Family" value="7" id="family2"/>
+								<label for="family3">Sibling</label>	
+								<input type="radio" name="Family" value="15" id="family3"/>
+								<label for="family4">Parent</label>	
+								<input type="radio" name="Family" value="15" id="family4"/>
+							</div>
+							<div class="controlgroup">		
+								<h3>How would you describe your diet?</h3>
+								<label for="diet1">Low sugar</label>
+								<input type="radio" name="Diet" value="0" id="diet1" checked="checked"/>
+								<label for="diet2">Normal sugar</label>
+								<input type="radio" name="Diet" value="0" id="diet2"/>
+								<label for="diet3">Quite high sugar</label>	
+								<input type="radio" name="Diet" value="7" id="diet3"/>
+								<label for="diet4">High sugar</label>	
+								<input type="radio" name="Diet" value="10" id="diet4"/>	
+							</div>
+								<input type="button" id="calculateRisk" value="calculate"/>
+						</fieldset>
+					</form>
+					<div id="result">
+					</div>
+				</section>
+			</main>
+			<footer>
+				<ul>
+					<li><a href="#">Site Policies</a></li>
+					<li><a href="#">About ZHA</a></li>
+					<li><a href="#">Other ZHA sites</a></li>
+				</ul>
+			</footer>
+		</div>	
+	</body>
+</html>

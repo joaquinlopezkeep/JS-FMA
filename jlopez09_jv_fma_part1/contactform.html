@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact US</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/diabetestool.css"/>
+		<script src="js/contactform.js"></script>
+	</head>
+	<body>
+		<div id="pagewrapper">
+			<header>
+				<nav id="commonlinks">
+					<ul  >
+						<li><a href="contactform.html">Contact Us</a></li>
+						<li><a href="#">Accessibility</a></li>
+						<li><a href="#">Login</a></li>
+					</ul>
+				</nav>	
+				<h1>Zedland Health Authority</h1>
+				<nav id="primarynav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Live well</a></li>
+						<li><a href="#">Care and support</a></li>
+						<li><a href="#">Health news</a></li>
+						<li><a href="#">Find GP</a></li>
+					</ul>
+				</nav>
+			</header>
+			<nav id="breadcrumbs">
+				<p>
+					<a href="#">Home</a>
+					→
+					<a href="diabetestool.html">Diabetes Risk Assessment Tool</a>
+					→
+					<span>Contact Us</span>
+				</p>	
+			</nav>
+			<main>
+				<div id="content">
+					<form method="post" action="http://titan.dcs.bbk.ac.uk/~ubseaxt/process.php" id="zhaform">
+						<fieldset id="dform">
+							<legend>ZHA Contact Form.</legend>
+							<div class="control">
+								<label for="fname">First Name: </label>
+								<input type="text" name="firstname" id="fname"/><span id="errFName" class="error">* You must enter your First name</span>
+							</div>
+							<div class="control">
+								<label for="lname">Last Name: </label>
+								<input type="text" name="lastname" id="lname"/><span id="errLName" class="error">* You must enter your Last Name</span>
+							</div>
+							<div class="control">
+								<label for="title">Title:</label>
+								<select name="yourtitle" id="title">
+									<option value="">Please select your title</option>
+									<option value="Mr" >Mr</option>
+									<option value="Ms">Ms</option>
+									<option value="Mrs">Mrs</option>
+									<option value="Miss">Miss</option>
+									<option value="Master">Master</option>
+								</select><span id="errtitle" class="error">* You must select a title</span>
+							</div>
+							<div class="control">
+								<label for="hnumber">Health Authority Number: </label>
+								<input type="text" name="healthnumber" id="hnumber"/><span id="errHNumber" class="error">* You must enter your Health Authority Number</span>
+							</div>
+							<div class="control">
+								<label for="mail">Email: </label>
+								<input type="text" name="email" id="mail"/><span id="errEmail" class="error">* You must enter your Email</span>
+							</div>
+							<div class="control">
+								<label for="telenumber">Telephone Number: </label>
+								<input type="text" name="phonenumber" id="telenumber"/><span id="errphone" class="error">Please enter a valid phone number.</span>
+							</div>
+							<input type="submit" name="submitForm" id="send"/>
+						</fieldset>
+					</form>
+				</div>
+			</main>
+			<footer>
+				<ul>
+					<li><a href="#">Site Policies</a></li>
+					<li><a href="#">About ZHA</a></li>
+					<li><a href="#">Other ZHA sites</a></li>
+				</ul>
+			</footer>
+		</div>	
+	</body>
+</html>

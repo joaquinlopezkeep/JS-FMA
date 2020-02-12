@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*other decorations*/
+
+#commonlinks a:hover, 
+#primarynav a:hover, 
+#breadcrumbs a:hover, 
+footer a:hover{
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: #000;
+}
+
+input:focus, select:focus{
+  outline-width: 2px;
+  outline-style: dashed;
+  outline-color: red;
+}
+/*pagewrapper*/
+#pagewrapper{
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 1em;
+	
+}
+
+/*header*/
+
+#commonlinks{
+	float: right;
+}
+
+#commonlinks li{
+	float: left;
+	padding-right: 0.5em;
+	margin: 0.375em 0;
+}
+
+#commonlinks li a{
+	text-decoration: none;
+	font-size: 0.75em;
+	color: #000;
+}
+
+header >h1{
+	text-align: center;
+	font-size: 2.875em;
+	padding-top: 1em;
+	
+}
+
+#primarynav{
+	text-align: center;
+	padding: 0.5em 0;
+	border-bottom: 2px solid lightgrey;
+	margin-bottom: 1em;
+}
+
+#primarynav ul li{
+	display: inline-block;
+	margin: 1em 0;
+}
+
+#primarynav ul li a{
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #000;
+	padding: 0 0.25em;
+}
+
+/*breadcrumbs*/
+
+#breadcrumbs{
+	text-align: center;
+	font-size: 0.75em;
+	padding-right: 60em;
+}
+
+#breadcrumbs a{
+	color: #000;
+	text-decoration: none;
+}
+
+/*main content*/
+
+#content{
+	border: 1px solid lightgrey;
+	padding: 1em;
+	width: 90%;
+	margin: 1em auto;
+}
+
+#content h2{
+	text-align: center;
+	font-size: 1.875em;
+	margin: 0.5em 0;
+}
+
+/*form*/
+#dform{
+	background-color: #f2f2f2;
+	border: 3px solid #000;
+	padding: 1em;
+	border-radius: 0.375em;
+}
+
+.control{
+	margin-bottom: 1em;
+}
+
+.control input{
+	width: 35%;
+}
+
+label.error {
+color: #ff0000;
+font-size:0.875em;
+font-style:italic;
+margin-left: 1em;
+}
+
+
+/*footer*/
+
+footer{
+	text-align: center;
+	border: 1px solid lightgrey;
+	margin-top: 1em;
+}
+
+footer ul li{
+	display: inline-block;
+	padding: 1.5em;
+}
+
+footer ul li a{
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+
